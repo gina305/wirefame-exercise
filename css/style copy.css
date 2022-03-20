@@ -1,0 +1,93 @@
+div{
+  background-color: white;
+  border-color: black;
+  height: 100%;
+ 
+}
+/* div>div{
+  border: black 2px solid;
+  text-align: center;
+} */
+div:nth-child(1) div{
+  background-color: #afacac;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+  width: 100%;
+  height: auto;
+}
+div:nth-child(1) div ul img{
+  padding: 0px;
+  margin: 0px;
+  text-align: center;
+  display:inline-block;
+  vertical-align:top;
+}
+div:nth-child(1) div ul li{
+  background-color: #afacac;
+  display: inline;
+  align-content: center;
+}
+div:nth-child(2){
+
+  border: rgb(160, 117, 7) 2px solid;
+  padding: 10px 0px 5px 0px;
+  margin-top: 20px;
+  position: relative;
+   display: flex;
+  background-color: DodgerBlue;
+
+}
+
+
+div:nth-child(2){
+
+  border: rgb(41, 192, 41) 2px solid;
+  height:960px ;
+  height: 450px;
+  align-items:center;
+  height: auto;
+
+}
+div:nth-child(3){
+  width: 100%;
+  border: rgb(232, 217, 10) 2px solid;
+  height:300px;
+
+}
+div:nth-child(3)>div{
+
+  border: rgb(143, 117, 31) 2px solid;
+  display: inline; /* the default for span */
+  width: 100px;
+  height: 100px;
+
+  
+
+}
+
+div:nth-child(4){
+
+  border: rgb(41, 127, 192) 2px solid;
+  height: 200px;
+  height: auto;
+
+}
+
+div:nth-child(4)>div{
+
+  border: rgb(27, 27, 27) 2px solid;
+  height: 95%;
+  width: 50%;
+ position: relative;
+ display: inline;
+ height: auto;
+ font-size: small;
+ overflow: wrap;
+}
+div:nth-child(5){
+
+  border: rgb(218, 17, 237) 2px solid;
+  height: 10%;
+ 
+}
